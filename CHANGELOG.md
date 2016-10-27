@@ -1,12 +1,18 @@
 Change Log
 ==========
 
+Version 2.5.2 *(2015-03-20)*
+----------------------------
+
+ * Fix: Correct problems with adapter-based recycling of drawables and interop with external libraries like RoundImageView.
+
+
 Version 2.5.1 *(2015-03-19)*
 ----------------------------
 
  * Specifying transformations in a request now accepts a list.
  * Fix: Correctly handle `null` values from content providers.
- * Fix: Ensure contact photo thumbnail Uris are laoded with the correct request handler.
+ * Fix: Ensure contact photo thumbnail Uris are loaded with the correct request handler.
  * Fix: Eliminate potential (albeit temporary) memory leak on pre-5.0 Android due to message pooling.
  * Fix: Prevent placeholder image aspect ratio from changing while crossfading in image.
 

@@ -4,6 +4,10 @@ buildscript {
   }
 }
 
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.Fablic'
+
 apply plugin: 'com.android.library'
 
 android {
@@ -38,5 +42,3 @@ dependencies {
   testCompile dep.mockito
   testCompile dep.mockWebServer
 }
-
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')

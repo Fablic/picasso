@@ -4,6 +4,10 @@ buildscript {
   }
 }
 
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.Fablic'
+
 apply plugin: 'com.android.library'
 
 android {
@@ -37,5 +41,3 @@ dependencies {
   testCompile dep.festAndroid
   testCompile dep.pollexor
 }
-
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
